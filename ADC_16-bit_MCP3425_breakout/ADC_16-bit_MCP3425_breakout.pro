@@ -1,4 +1,4 @@
-update=Mon 01 Aug 2016 02:38:16 PM PDT
+update=Tue 02 Aug 2016 01:59:10 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/chris/workspace/scintilla/pcb/kicad/scintilla
+LibName30=/home/chris/workspace/scintilla-hardware-schematics/scintilla
