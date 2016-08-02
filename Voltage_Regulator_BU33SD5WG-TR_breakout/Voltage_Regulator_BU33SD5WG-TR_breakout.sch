@@ -1,0 +1,175 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:scintilla
+LIBS:Voltage_Regulator_BU33SD5WG-TR_breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BU33SD5WG-TR U1
+U 1 1 579BAF1D
+P 6150 3900
+F 0 "U1" H 6750 3400 60  0000 C CNN
+F 1 "BU33SD5WG-TR" H 6150 3900 60  0000 C CNN
+F 2 "scintilla:BU33SD5WG-TR" H 6150 3900 60  0001 C CNN
+F 3 "" H 6150 3900 60  0000 C CNN
+	1    6150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4500 6150 4750
+$Comp
+L GND #PWR01
+U 1 1 579BAFD4
+P 6150 4750
+F 0 "#PWR01" H 6150 4500 50  0001 C CNN
+F 1 "GND" H 6150 4600 50  0000 C CNN
+F 2 "" H 6150 4750 50  0000 C CNN
+F 3 "" H 6150 4750 50  0000 C CNN
+	1    6150 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR02
+U 1 1 579BAFED
+P 6150 3150
+F 0 "#PWR02" H 6150 3000 50  0001 C CNN
+F 1 "+BATT" H 6150 3290 50  0000 C CNN
+F 2 "" H 6150 3150 50  0000 C CNN
+F 3 "" H 6150 3150 50  0000 C CNN
+	1    6150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P1
+U 1 1 579BB01A
+P 3900 3850
+F 0 "P1" H 3900 4100 50  0000 C CNN
+F 1 "CONN_01X04" V 4000 3850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 3900 3850 50  0001 C CNN
+F 3 "" H 3900 3850 50  0000 C CNN
+	1    3900 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 3900 7100 3900
+Wire Wire Line
+	5300 4050 5200 4050
+Text GLabel 5200 4050 0    60   Input ~ 0
+STBY
+Text GLabel 7100 3900 2    60   Input ~ 0
+VOUT
+$Comp
+L +BATT #PWR03
+U 1 1 579BB2A5
+P 4500 3900
+F 0 "#PWR03" H 4500 3750 50  0001 C CNN
+F 1 "+BATT" H 4500 4040 50  0000 C CNN
+F 2 "" H 4500 3900 50  0000 C CNN
+F 3 "" H 4500 3900 50  0000 C CNN
+	1    4500 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 4000 2    60   Input ~ 0
+VOUT
+Wire Wire Line
+	4100 3700 4100 3400
+Wire Wire Line
+	4100 3400 4300 3400
+Wire Wire Line
+	4100 3800 4200 3800
+Wire Wire Line
+	4200 3800 4200 3600
+Wire Wire Line
+	4200 3600 4300 3600
+$Comp
+L GND #PWR04
+U 1 1 579BB328
+P 4300 3600
+F 0 "#PWR04" H 4300 3350 50  0001 C CNN
+F 1 "GND" H 4300 3450 50  0000 C CNN
+F 2 "" H 4300 3600 50  0000 C CNN
+F 3 "" H 4300 3600 50  0000 C CNN
+	1    4300 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 3400 2    60   Input ~ 0
+STBY
+Wire Wire Line
+	4100 4000 4200 4000
+Wire Wire Line
+	4100 3900 4500 3900
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 579BE596
+P 5800 3150
+F 0 "#FLG?" H 5800 3245 50  0001 C CNN
+F 1 "PWR_FLAG" H 5800 3330 50  0000 C CNN
+F 2 "" H 5800 3150 50  0000 C CNN
+F 3 "" H 5800 3150 50  0000 C CNN
+	1    5800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3150 5800 3200
+Wire Wire Line
+	5800 3200 6150 3200
+Wire Wire Line
+	6150 3150 6150 3300
+Connection ~ 6150 3200
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 579BE633
+P 5800 4650
+F 0 "#FLG?" H 5800 4745 50  0001 C CNN
+F 1 "PWR_FLAG" H 5800 4830 50  0000 C CNN
+F 2 "" H 5800 4650 50  0000 C CNN
+F 3 "" H 5800 4650 50  0000 C CNN
+	1    5800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4650 5800 4700
+Wire Wire Line
+	5800 4700 6150 4700
+Connection ~ 6150 4700
+$EndSCHEMATC

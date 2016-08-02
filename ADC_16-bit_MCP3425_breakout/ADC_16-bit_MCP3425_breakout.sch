@@ -1,0 +1,192 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:scintilla
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP3425 U1
+U 1 1 579FC463
+P 5650 3650
+F 0 "U1" H 6000 3200 60  0000 C CNN
+F 1 "MCP3425" H 5650 3650 60  0000 C CNN
+F 2 "scintilla:MCP3425" H 5650 3650 60  0001 C CNN
+F 3 "" H 5650 3650 60  0000 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P1
+U 1 1 579FC494
+P 3550 3650
+F 0 "P1" H 3550 4000 50  0000 C CNN
+F 1 "CONN_01X06" V 3650 3650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 3550 3650 50  0001 C CNN
+F 3 "" H 3550 3650 50  0000 C CNN
+	1    3550 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 3350 4950 3350
+Wire Wire Line
+	5050 3550 4950 3550
+Wire Wire Line
+	5050 3750 4950 3750
+Wire Wire Line
+	5050 3950 4950 3950
+Wire Wire Line
+	5650 4250 5650 4600
+$Comp
+L GND #PWR01
+U 1 1 579FC57A
+P 5650 4600
+F 0 "#PWR01" H 5650 4350 50  0001 C CNN
+F 1 "GND" H 5650 4450 50  0000 C CNN
+F 2 "" H 5650 4600 50  0000 C CNN
+F 3 "" H 5650 4600 50  0000 C CNN
+	1    5650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 579FC592
+P 5150 4400
+F 0 "#FLG02" H 5150 4495 50  0001 C CNN
+F 1 "PWR_FLAG" H 5150 4580 50  0000 C CNN
+F 2 "" H 5150 4400 50  0000 C CNN
+F 3 "" H 5150 4400 50  0000 C CNN
+	1    5150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 579FC5AA
+P 5150 2800
+F 0 "#FLG03" H 5150 2895 50  0001 C CNN
+F 1 "PWR_FLAG" H 5150 2980 50  0000 C CNN
+F 2 "" H 5150 2800 50  0000 C CNN
+F 3 "" H 5150 2800 50  0000 C CNN
+	1    5150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 579FC5C2
+P 5650 2600
+F 0 "#PWR04" H 5650 2450 50  0001 C CNN
+F 1 "+5V" H 5650 2740 50  0000 C CNN
+F 2 "" H 5650 2600 50  0000 C CNN
+F 3 "" H 5650 2600 50  0000 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2600 5650 3050
+Wire Wire Line
+	5150 2800 5650 2800
+Connection ~ 5650 2800
+Wire Wire Line
+	5150 4400 5650 4400
+Connection ~ 5650 4400
+Wire Wire Line
+	3750 3600 3950 3600
+Wire Wire Line
+	3950 3600 3950 3500
+Wire Wire Line
+	3750 3500 3850 3500
+Wire Wire Line
+	3850 3500 3850 3300
+Wire Wire Line
+	3750 3400 3750 3100
+Wire Wire Line
+	3750 3700 3950 3700
+Wire Wire Line
+	3950 3700 3950 3800
+Wire Wire Line
+	3750 3800 3850 3800
+Wire Wire Line
+	3850 3800 3850 4000
+Wire Wire Line
+	3750 3900 3750 4200
+$Comp
+L +5V #PWR05
+U 1 1 579FC6AB
+P 3850 3300
+F 0 "#PWR05" H 3850 3150 50  0001 C CNN
+F 1 "+5V" H 3850 3440 50  0000 C CNN
+F 2 "" H 3850 3300 50  0000 C CNN
+F 3 "" H 3850 3300 50  0000 C CNN
+	1    3850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 579FC6C3
+P 3850 4000
+F 0 "#PWR06" H 3850 3750 50  0001 C CNN
+F 1 "GND" H 3850 3850 50  0000 C CNN
+F 2 "" H 3850 4000 50  0000 C CNN
+F 3 "" H 3850 4000 50  0000 C CNN
+	1    3850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4200 3950 4200
+Wire Wire Line
+	3750 3100 3950 3100
+Text GLabel 4950 3350 0    60   Input ~ 0
+VIN+
+Text GLabel 4950 3550 0    60   Input ~ 0
+VIN-
+Text GLabel 3950 3100 2    60   Input ~ 0
+VIN-
+Text GLabel 3950 4200 2    60   Input ~ 0
+VIN+
+Text GLabel 3950 3800 2    60   Input ~ 0
+SCL
+Text GLabel 4950 3750 0    60   Input ~ 0
+SCL
+Text GLabel 4950 3950 0    60   Input ~ 0
+SDA
+Text GLabel 3950 3500 2    60   Input ~ 0
+SDA
+$EndSCHEMATC
