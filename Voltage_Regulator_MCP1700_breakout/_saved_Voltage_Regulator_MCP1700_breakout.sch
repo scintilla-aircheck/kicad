@@ -1,0 +1,162 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:scintilla
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP1700 U1
+U 1 1 57C070B6
+P 4800 3650
+F 0 "U1" H 5150 3200 60  0000 C CNN
+F 1 "MCP1700" H 4800 3800 60  0000 C CNN
+F 2 "scintilla:MCP1700" H 4800 3600 60  0001 C CNN
+F 3 "" H 4800 3600 60  0001 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P1
+U 1 1 57C070DB
+P 3300 3600
+F 0 "P1" H 3300 3800 50  0000 C CNN
+F 1 "CONN_01X03" V 3400 3600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 3300 3600 50  0001 C CNN
+F 3 "" H 3300 3600 50  0000 C CNN
+	1    3300 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 3050 4800 2900
+Wire Wire Line
+	4800 4250 4800 4400
+$Comp
+L +5V #PWR01
+U 1 1 57C07141
+P 4800 2900
+F 0 "#PWR01" H 4800 2750 50  0001 C CNN
+F 1 "+5V" H 4800 3040 50  0000 C CNN
+F 2 "" H 4800 2900 50  0000 C CNN
+F 3 "" H 4800 2900 50  0000 C CNN
+	1    4800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 57C07159
+P 4450 2900
+F 0 "#FLG02" H 4450 2995 50  0001 C CNN
+F 1 "PWR_FLAG" H 4450 3080 50  0000 C CNN
+F 2 "" H 4450 2900 50  0000 C CNN
+F 3 "" H 4450 2900 50  0000 C CNN
+	1    4450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 57C07171
+P 4500 4350
+F 0 "#FLG03" H 4500 4445 50  0001 C CNN
+F 1 "PWR_FLAG" H 4500 4530 50  0000 C CNN
+F 2 "" H 4500 4350 50  0000 C CNN
+F 3 "" H 4500 4350 50  0000 C CNN
+	1    4500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 57C07189
+P 4800 4400
+F 0 "#PWR04" H 4800 4150 50  0001 C CNN
+F 1 "GND" H 4800 4250 50  0000 C CNN
+F 2 "" H 4800 4400 50  0000 C CNN
+F 3 "" H 4800 4400 50  0000 C CNN
+	1    4800 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4350 4800 4350
+Connection ~ 4800 4350
+Wire Wire Line
+	4800 2950 4450 2950
+Wire Wire Line
+	4450 2950 4450 2900
+Connection ~ 4800 2950
+Wire Wire Line
+	3500 3500 3500 3400
+Wire Wire Line
+	3500 3400 3600 3400
+Wire Wire Line
+	3500 3600 3600 3600
+Wire Wire Line
+	3500 3700 3500 3800
+Wire Wire Line
+	3500 3800 3600 3800
+$Comp
+L +5V #PWR05
+U 1 1 57C0730C
+P 3600 3400
+F 0 "#PWR05" H 3600 3250 50  0001 C CNN
+F 1 "+5V" H 3600 3540 50  0000 C CNN
+F 2 "" H 3600 3400 50  0000 C CNN
+F 3 "" H 3600 3400 50  0000 C CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 57C07324
+P 3600 3800
+F 0 "#PWR06" H 3600 3550 50  0001 C CNN
+F 1 "GND" H 3600 3650 50  0000 C CNN
+F 2 "" H 3600 3800 50  0000 C CNN
+F 3 "" H 3600 3800 50  0000 C CNN
+	1    3600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3650 5500 3650
+Text GLabel 3600 3600 2    60   Input ~ 0
+VOUT
+Text GLabel 5500 3650 2    60   Input ~ 0
+VOUT
+$EndSCHEMATC

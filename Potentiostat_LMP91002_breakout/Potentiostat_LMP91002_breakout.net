@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/chris/workspace/scintilla/pcb/kicad/Potentiostat_LMP91002_breakout/Potentiostat_LMP91002_breakout.sch)
-    (date "Mon 01 Aug 2016 04:02:02 PM PDT")
+    (source /home/chris/workspace/scintilla-hardware-schematics/Potentiostat_LMP91002_breakout/Potentiostat_LMP91002_breakout.sch)
+    (date "Thu 11 Aug 2016 12:51:36 PM PDT")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -73,10 +73,10 @@
         (pin (num 14) (name CE) (type input))
         (pin (num 15) (name GND) (type power_in)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical scintilla)
-      (uri /home/chris/workspace/scintilla/pcb/kicad/scintilla.lib)))
+      (uri /home/chris/workspace/scintilla-hardware-schematics/scintilla.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name CE)
       (node (ref U1) (pin 14))
