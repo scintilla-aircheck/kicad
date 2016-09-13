@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/chris/workspace/scintilla-hardware-schematics/ESP-12F_flash/ESP-12-F-0.1.sch)
-    (date "Fri 02 Sep 2016 03:27:43 PM PDT")
+    (source /home/chris/workspace/scintilla-hardware-schematics/ESP-12F_flash_with_cutout/ESP-12F_flash_with_cutout.sch)
+    (date "Fri 02 Sep 2016 03:30:48 PM PDT")
     (tool "Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company "Team Scintilla")
         (rev)
         (date)
-        (source ESP-12-F-0.1.sch)
+        (source ESP-12F_flash_with_cutout.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -77,10 +77,9 @@
       (tstamp 57C0458E))
     (comp (ref U1)
       (value ESP-12F)
-      (footprint scintilla:ESP-12F)
       (libsource (lib scintilla) (part ESP-12F))
       (sheetpath (names /) (tstamps /))
-      (tstamp 57C9FA90)))
+      (tstamp 57C9FDC0)))
   (libparts
     (libpart (lib conn) (part CONN_01X02)
       (description "Connector 01x02")
@@ -196,12 +195,12 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive)))))
   (libraries
+    (library (logical scintilla)
+      (uri /home/chris/workspace/scintilla-hardware-schematics/scintilla.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical scintilla)
-      (uri /home/chris/workspace/scintilla-hardware-schematics/scintilla.lib)))
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /GPIO5)
       (node (ref P1) (pin 6))
