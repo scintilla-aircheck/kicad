@@ -1,4 +1,4 @@
-update=9/13/2016 9:19:43 AM
+update=9/13/2016 2:52:56 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,13 +59,3 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/konra/Documents/Database/S/Scintilla/scintilla-hardware-schematics/scintilla
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
