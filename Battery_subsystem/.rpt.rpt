@@ -1,0 +1,65 @@
+** Drc report for /home/chris/workspace/scintilla-hardware-schematics/Battery_subsystem/Battery_subsystem.kicad_pcb **
+** Created on 2016-09-14 14:45:00 **
+
+** Found 19 DRC errors **
+ErrType(4): Track near pad
+    @ (152.800 mm,83.100 mm): Track 0.450 mm, net [TIMER] (1) on layer F.Cu, length: 6.600 mm
+    @ (152.800 mm,83.750 mm): Pad 3 on F.Cu, Non-copper of U1
+ErrType(17): Two track ends too close
+    @ (159.400 mm,83.100 mm): Track 0.450 mm, net [TIMER] (1) on layer F.Cu, length: 0.849 mm
+    @ (152.800 mm,83.750 mm): Track 0.450 mm, net [SENSE] (8) on layer F.Cu, length: 11.566 mm
+ErrType(4): Track near pad
+    @ (147.250 mm,85.050 mm): Track 0.450 mm, net [GND] (2) on layer F.Cu, length: 0.675 mm
+    @ (147.250 mm,84.400 mm): Pad 15 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (147.250 mm,81.150 mm): Track 0.450 mm, net [GND] (2) on layer F.Cu, length: 1.150 mm
+    @ (147.250 mm,81.800 mm): Pad 11 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (152.800 mm,81.800 mm): Track 0.450 mm, net [GND] (2) on layer F.Cu, length: 1.900 mm
+    @ (152.800 mm,81.150 mm): Pad 7 on F.Cu, Non-copper of U1
+ErrType(17): Two track ends too close
+    @ (154.700 mm,81.800 mm): Track 0.450 mm, net [GND] (2) on layer F.Cu, length: 0.424 mm
+    @ (152.800 mm,82.450 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 4.250 mm
+ErrType(4): Track near pad
+    @ (152.800 mm,81.800 mm): Track 0.450 mm, net [GND] (2) on layer F.Cu, length: 1.800 mm
+    @ (152.800 mm,81.150 mm): Pad 7 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (147.250 mm,82.450 mm): Track 0.450 mm, net [GND] (2) on layer F.Cu, length: 2.450 mm
+    @ (147.250 mm,81.800 mm): Pad 11 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (147.250 mm,84.400 mm): Track 0.450 mm, net [~CHRG] (4) on layer F.Cu, length: 1.150 mm
+    @ (147.250 mm,85.050 mm): Pad 16 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (147.250 mm,80.500 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 0.300 mm
+    @ (147.250 mm,81.150 mm): Pad 10 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (147.550 mm,80.500 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 1.414 mm
+    @ (147.250 mm,81.150 mm): Pad 10 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (152.800 mm,82.450 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 4.250 mm
+    @ (152.800 mm,81.800 mm): Pad 6 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (151.500 mm,79.500 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 1.414 mm
+    @ (152.800 mm,81.150 mm): Pad 7 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (152.500 mm,80.500 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 0.300 mm
+    @ (152.800 mm,81.150 mm): Pad 7 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (147.250 mm,83.750 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 1.000 mm
+    @ (147.250 mm,83.100 mm): Pad 13 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (152.800 mm,81.150 mm): Track 0.450 mm, net [PROG] (6) on layer F.Cu, length: 0.785 mm
+    @ (152.800 mm,81.800 mm): Pad 6 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (152.800 mm,85.050 mm): Track 0.450 mm, net [DRIVE] (7) on layer F.Cu, length: 6.750 mm
+    @ (152.800 mm,84.400 mm): Pad 2 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (152.800 mm,83.750 mm): Track 0.450 mm, net [SENSE] (8) on layer F.Cu, length: 11.566 mm
+    @ (152.800 mm,84.400 mm): Pad 2 on F.Cu, Non-copper of U1
+ErrType(4): Track near pad
+    @ (152.800 mm,84.400 mm): Track 0.450 mm, net [BAT] (9) on layer F.Cu, length: 3.850 mm
+    @ (152.800 mm,85.050 mm): Pad 1 on F.Cu, Non-copper of U1
+
+** Found 0 unconnected pads **
+
+** End of Report **
