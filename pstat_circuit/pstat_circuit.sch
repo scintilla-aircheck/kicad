@@ -415,17 +415,6 @@ F 3 "" H 4800 1250 50  0000 C CNN
 	1    4800 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R6
-U 1 1 57E4415C
-P 6150 1700
-F 0 "R6" V 6230 1700 50  0000 C CNN
-F 1 "10K" V 6150 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6080 1700 50  0001 C CNN
-F 3 "" H 6150 1700 50  0000 C CNN
-	1    6150 1700
-	-1   0    0    1   
-$EndComp
 Text Label 4400 1450 2    60   ~ 0
 3V3
 Text Label 4400 1550 2    60   ~ 0
@@ -635,7 +624,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1350 5950 1950
 Wire Wire Line
-	6150 1350 6150 1550
+	6150 1350 6150 1600
 Wire Wire Line
 	5750 1350 5750 1600
 Wire Wire Line
@@ -1098,7 +1087,7 @@ Wire Wire Line
 	6500 4250 6700 4250
 Connection ~ 6700 4250
 Wire Wire Line
-	6150 1850 6150 1950
+	6150 1800 6150 1950
 Wire Wire Line
 	6150 1950 5300 1950
 Text Label 6700 5050 1    60   ~ 0
@@ -1190,4 +1179,15 @@ $EndComp
 Wire Wire Line
 	4150 1550 4150 1650
 Connection ~ 4150 1550
+$Comp
+L C_Small C16
+U 1 1 57E2BC5A
+P 6150 1700
+F 0 "C16" H 6160 1770 50  0000 L CNN
+F 1 "0.1uF" H 6160 1620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6150 1700 50  0001 C CNN
+F 3 "" H 6150 1700 50  0000 C CNN
+	1    6150 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
