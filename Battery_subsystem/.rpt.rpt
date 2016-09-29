@@ -1,7 +1,7 @@
 ** Drc report for /home/chris/workspace/scintilla-hardware-schematics/Battery_subsystem/Battery_subsystem.kicad_pcb **
-** Created on 2016-09-14 14:45:00 **
+** Created on 2016-09-15 15:34:36 **
 
-** Found 19 DRC errors **
+** Found 24 DRC errors **
 ErrType(4): Track near pad
     @ (152.800 mm,83.100 mm): Track 0.450 mm, net [TIMER] (1) on layer F.Cu, length: 6.600 mm
     @ (152.800 mm,83.750 mm): Pad 3 on F.Cu, Non-copper of U1
@@ -29,12 +29,22 @@ ErrType(4): Track near pad
 ErrType(4): Track near pad
     @ (147.250 mm,84.400 mm): Track 0.450 mm, net [~CHRG] (4) on layer F.Cu, length: 1.150 mm
     @ (147.250 mm,85.050 mm): Pad 16 on F.Cu, Non-copper of U1
+ErrType(27): Too small track width
+    @ (148.150 mm,85.450 mm): Track 0.350 mm, net [Vin] (5) on layer F.Cu, length: 0.200 mm
+ErrType(27): Too small track width
+    @ (148.150 mm,84.350 mm): Track 0.350 mm, net [Vin] (5) on layer F.Cu, length: 1.100 mm
+ErrType(27): Too small track width
+    @ (148.150 mm,83.750 mm): Track 0.350 mm, net [Vin] (5) on layer F.Cu, length: 0.600 mm
+ErrType(27): Too small track width
+    @ (147.250 mm,83.750 mm): Track 0.350 mm, net [Vin] (5) on layer F.Cu, length: 0.900 mm
 ErrType(4): Track near pad
     @ (147.250 mm,80.500 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 0.300 mm
     @ (147.250 mm,81.150 mm): Pad 10 on F.Cu, Non-copper of U1
 ErrType(4): Track near pad
     @ (147.550 mm,80.500 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 1.414 mm
     @ (147.250 mm,81.150 mm): Pad 10 on F.Cu, Non-copper of U1
+ErrType(27): Too small track width
+    @ (156.400 mm,115.825 mm): Track 0.350 mm, net [Vin] (5) on layer F.Cu, length: 0.475 mm
 ErrType(4): Track near pad
     @ (152.800 mm,82.450 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 4.250 mm
     @ (152.800 mm,81.800 mm): Pad 6 on F.Cu, Non-copper of U1

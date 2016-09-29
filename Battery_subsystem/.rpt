@@ -1,7 +1,7 @@
 ** Drc report for /home/chris/workspace/scintilla-hardware-schematics/Battery_subsystem/Battery_subsystem.kicad_pcb **
-** Created on 2016-09-14 14:43:11 **
+** Created on 2016-09-15 13:56:56 **
 
-** Found 20 DRC errors **
+** Found 19 DRC errors **
 ErrType(4): Track near pad
     @ (152.800 mm,83.100 mm): Track 0.450 mm, net [TIMER] (1) on layer F.Cu, length: 6.600 mm
     @ (152.800 mm,83.750 mm): Pad 3 on F.Cu, Non-copper of U1
@@ -35,8 +35,6 @@ ErrType(4): Track near pad
 ErrType(4): Track near pad
     @ (147.550 mm,80.500 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 1.414 mm
     @ (147.250 mm,81.150 mm): Pad 10 on F.Cu, Non-copper of U1
-ErrType(27): Too small track width
-    @ (148.180 mm,83.925 mm): Track 0.250 mm, net [Vin] (5) on layer F.Cu, length: 0.020 mm
 ErrType(4): Track near pad
     @ (152.800 mm,82.450 mm): Track 0.450 mm, net [Vin] (5) on layer F.Cu, length: 4.250 mm
     @ (152.800 mm,81.800 mm): Pad 6 on F.Cu, Non-copper of U1
